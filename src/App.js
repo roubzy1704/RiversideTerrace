@@ -22,7 +22,7 @@ function App() {
     <div id="page-container">
       <div className="center logo">
         {" "}
-        <a href="/" target="_self">
+        <a href="/RiversideTerrace" target="_self">
           <img src={RTLogo} alt="Riverside Terrace" />
         </a>
       </div>
