@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/RiversideTerrace/static/css/main.7196454f.chunk.css",
+    "main.js": "/RiversideTerrace/static/js/main.724cc8db.chunk.js",
+    "main.js.map": "/RiversideTerrace/static/js/main.724cc8db.chunk.js.map",
+    "runtime-main.js": "/RiversideTerrace/static/js/runtime-main.7e161799.js",
+    "runtime-main.js.map": "/RiversideTerrace/static/js/runtime-main.7e161799.js.map",
+    "static/js/2.9d60784d.chunk.js": "/RiversideTerrace/static/js/2.9d60784d.chunk.js",
+    "static/js/2.9d60784d.chunk.js.map": "/RiversideTerrace/static/js/2.9d60784d.chunk.js.map",
+    "static/js/3.bbed7584.chunk.js": "/RiversideTerrace/static/js/3.bbed7584.chunk.js",
+    "static/js/3.bbed7584.chunk.js.map": "/RiversideTerrace/static/js/3.bbed7584.chunk.js.map",
+    "index.html": "/RiversideTerrace/index.html",
+    "static/css/main.7196454f.chunk.css.map": "/RiversideTerrace/static/css/main.7196454f.chunk.css.map",
+    "static/js/2.9d60784d.chunk.js.LICENSE.txt": "/RiversideTerrace/static/js/2.9d60784d.chunk.js.LICENSE.txt",
+    "static/media/RTLogo.960dcd0f.png": "/RiversideTerrace/static/media/RTLogo.960dcd0f.png",
+    "static/media/RTSoloLogo.057e1ff4.png": "/RiversideTerrace/static/media/RTSoloLogo.057e1ff4.png",
+    "static/media/RiverTerraceLogo.0206d960.png": "/RiversideTerrace/static/media/RiverTerraceLogo.0206d960.png",
+    "static/media/UH.943cf5cc.jpg": "/RiversideTerrace/static/media/UH.943cf5cc.jpg",
+    "static/media/historyImg1.30d778dc.webp": "/RiversideTerrace/static/media/historyImg1.30d778dc.webp",
+    "static/media/historyImg2.3d567621.webp": "/RiversideTerrace/static/media/historyImg2.3d567621.webp",
+    "static/media/historyImg3.d0b27f82.webp": "/RiversideTerrace/static/media/historyImg3.d0b27f82.webp",
+    "static/media/historyImg4.da78e3d2.jpg": "/RiversideTerrace/static/media/historyImg4.da78e3d2.jpg",
+    "static/media/historyImg5.7bb2c464.webp": "/RiversideTerrace/static/media/historyImg5.7bb2c464.webp",
+    "static/media/historyImg6.83bb834b.webp": "/RiversideTerrace/static/media/historyImg6.83bb834b.webp",
+    "static/media/historyImg7.7e9893f5.jpg": "/RiversideTerrace/static/media/historyImg7.7e9893f5.jpg",
+    "static/media/historyImg8.fc6c281b.jpg": "/RiversideTerrace/static/media/historyImg8.fc6c281b.jpg",
+    "static/media/historyImg9.2bd90eeb.jpg": "/RiversideTerrace/static/media/historyImg9.2bd90eeb.jpg",
+    "static/media/Homepage.scss": "/RiversideTerrace/static/media/house-02.a2b84a79.jpg",
+    "static/media/medicalCenter.f2404a3a.jpg": "/RiversideTerrace/static/media/medicalCenter.f2404a3a.jpg",
+    "static/media/nrg-stadium.6e095811.jpg": "/RiversideTerrace/static/media/nrg-stadium.6e095811.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e161799.js",
+    "static/js/2.9d60784d.chunk.js",
+    "static/css/main.7196454f.chunk.css",
+    "static/js/main.724cc8db.chunk.js"
+  ]
+}
