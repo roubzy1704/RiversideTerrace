@@ -1,0 +1,137 @@
+// Shared CSS
+@use '../../Shared/Shared.scss';
+
+.navbar {
+  opacity: 0.9;
+  background-color: Shared.$grey-color;
+}
+
+//hamburger Icon
+.navbar-light .navbar-toggler-icon {
+  // background-image: url(../../Images/hamburgerIcon.png);
+}
+//hamburger Icon Border
+.navbar-light .navbar-toggler {
+  border-color: rgb(Shared.$darkgrey-color, 60%);
+  color: rgb(Shared.$primary-color, 100%);
+}
+
+//canvas header
+.offcanvas-header {
+  background-color: rgb(Shared.$primary-color, 70%);
+}
+
+.navbar-nav {
+  padding-top: 8px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: Shared.$primary-color;
+  border-radius: 20px;
+  transition: 0.5s ease in;
+}
+
+.signInIcon {
+  margin-bottom: 2px;
+}
+
+.navBarChangeOnScroll {
+  // opacity: 0.9;
+}
+
+//dropdown menu position and styling
+.dropdown-menu {
+  top: 100%;
+  left: 10%;
+  padding: 20px 60px;
+  background-color: rgb(44, 44, 44);
+  color: #fff;
+  border: 3px solid #baa079;
+  border-top: 1px solid rgb(68, 68, 68);
+  text-align: center;
+}
+
+//styling dropdown items
+.dropdown-item {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+}
+
+//overriding some default dropdown chatacteristics
+.dropdown-menu .dropdown-item.active,
+.dropdown-menu .dropdown-item:active {
+  color: #fff;
+  background-color: transparent;
+}
+
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item:hover {
+  color: #fff;
+  background-color: rgba(186, 160, 121, 0.7);
+  border-radius: 10px;
+}
+
+@media all and (min-width: 768px) {
+  //this property hides the navbar logo ntil viewport is at 768px
+  .navbar-brand {
+    display: none !important;
+  }
+
+  //trigger dropdown on hover for min screen size of 768px
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  //navbar canvas
+  .offcanvas-body {
+    background-color: black;
+  }
+
+  .dropdown-menu {
+    background-color: #000;
+    border: 1px solid #baa079;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  //positions the dropdown menu
+  .dropdown-menu {
+    left: 10% !important;
+    padding: 20px 60px;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+  //positions the dropdown menu
+  .dropdown-menu {
+    left: -10% !important;
+    padding: 20px 60px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  //positions the dropdown menu
+  .dropdown-menu {
+    left: -7% !important;
+    padding: 20px 40px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  //positions the dropdown menu
+  .dropdown-menu {
+    left: -20% !important;
+    padding: 20px 30px;
+  }
+}

@@ -1,0 +1,82 @@
+// Shared CSS
+@use './Shared/Shared';
+
+//Change scrollbar width
+::-webkit-scrollbar {
+  width: 12px;
+}
+//Change scrollbar color
+::-webkit-scrollbar-thumb {
+  background: Shared.$primary-color;
+  border-radius: 3px;
+}
+
+/* Style for footer arrangment */
+#page-container {
+  position: relative;
+  min-height: 120vh; //TODO Check on this later
+  width: 100% !important;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+/* Logo */
+.logo {
+  // background-color: Shared.$background-color;
+  padding-bottom: 15px;
+  // z-index: 10;
+  img {
+    height: 20vh;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Logo */
+  .logo {
+    img {
+      height: 15vh;
+    }
+  }
+}
+
+@media screen and (min-width: 766px) and (max-width: 992px) {
+  /* Logo */
+  .logo {
+    img {
+      height: 13vh;
+    }
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  /* Logo */
+  .logo {
+    img {
+      height: 13vh;
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  /* Logo */
+  .logo {
+    img {
+      height: 9vh;
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  /* Logo */
+  .logo {
+    img {
+      height: 7vh;
+    }
+  }
+}

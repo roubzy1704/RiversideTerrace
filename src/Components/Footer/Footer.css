@@ -1,0 +1,52 @@
+.Footer {
+  height: 90px;
+  background: rgb(51, 51, 51);
+  padding: 30px 40px;
+  padding-bottom: 70px;
+}
+
+.socialIcons {
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.Footer a {
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.Footer a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .Footer {
+    padding-bottom: 120px;
+  }
+
+  .phoneEmail {
+    text-align: center;
+  }
+
+  .socialIcons {
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Footer {
+    height: 300px;
+  }
+  .socialIcons {
+    flex-direction: column;
+  }
+
+  .socialIcons a {
+    padding-bottom: 10px;
+  }
+}

@@ -1,0 +1,217 @@
+// Shared CSS
+@use '../../../Shared/Shared';
+
+.Homepage {
+  .section1 {
+    background: url("../../../Images/house-01.jpg");
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    h1 {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      border: 2px solid white;
+      width: 70%;
+      padding: 10px;
+      font-weight: 100;
+    }
+  }
+}
+
+.HomepageWelcome {
+  height: 100%;
+  padding: 40px 100px;
+  p,
+  h5,
+  h1 {
+    @include Shared.textParagraph;
+  }
+  h1 {
+    @include Shared.headerTitle;
+  }
+}
+
+.bannerText {
+  background-color: rgba(Shared.$grey-color, 0.7);
+}
+
+.homeBtnGrp {
+  background-image: radial-gradient(
+      circle,
+      rgba(100, 100, 100, 0.8) 0%,
+      rgba(100, 100, 100, 0.8) 100%
+    ),
+    url("../../../Images/house-02.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; //the z-index image scroll over effect trick
+  padding: 30px 60px 20px 60px;
+}
+
+.homeBtnGrpRow a {
+  width: auto;
+  margin: 0 auto;
+}
+
+//this style fixes the button grid with the Link wrapper, I dont know how it does it
+//I tried to use something else that I could comprehend but it did not work
+//so am just gonna leave it at this since it worked, this targets the row attribute
+//all i needed was to remove the width value, I know none doesnt make any sense
+// .homeBtnGrp .row > * {
+//   width: none !important;
+// }
+.homeBtn {
+  border: 1px solid white;
+  padding: 10px 0px;
+  color: white;
+  width: 200px;
+  height: 70px;
+  margin-bottom: 10px;
+  transition: 0.3s ease-out;
+  &:hover {
+    border: 3px solid Shared.$primary-color;
+    color: Shared.$primary-color;
+    background-color: white;
+    letter-spacing: 2px;
+    font-size: 1.03rem;
+  }
+  //this is to override the focus color of the btn, (after click bootstrap set a boxshadow of blue around it)
+  &:focus {
+    + {
+      .btn {
+        box-shadow: 0 0 0 0.25rem rgb(186 160 121 / 25%);
+      }
+    }
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.25rem rgb(186 160 121 / 25%);
+  }
+}
+
+.HomepageWelcome2 {
+  padding: 100px 0;
+  background-color: #f6f6f0;
+  color: Shared.$grey-color;
+}
+
+.HomepageWelcome2Img {
+  margin-top: 50px;
+}
+
+.locationImg {
+  padding-bottom: 20px;
+  transition: 0.5s ease-out;
+  img {
+    -webkit-box-shadow: 5px 5px 15px 5px #acacac;
+    box-shadow: 5px 5px 15px 5px #acacac;
+    border: 2px solid #dadada;
+  }
+  &:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .Homepage {
+    .section1 {
+      h1 {
+        width: 25%;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+  .Homepage {
+    .section1 {
+      h1 {
+        width: 25%;
+      }
+    }
+  }
+  .HomepageWelcome2Img {
+    padding: 0 100px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  .Homepage {
+    .section1 {
+      h1 {
+        width: 40%;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .Homepage {
+    .section1 {
+      h1 {
+        width: 40%;
+      }
+    }
+  }
+  .locationImg {
+    img {
+      width: 300px;
+    }
+  }
+  .HomepageWelcome2Img {
+    padding: 0 100px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .locationImg {
+    img {
+      width: 250px;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .Homepage {
+    .section1 {
+      h1 {
+        width: 45%;
+      }
+    }
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .Homepage {
+    .section1 {
+      h1 {
+        width: 50%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .Homepage {
+    .section1 {
+      h1 {
+        width: 80%;
+      }
+    }
+  }
+  .HomepageWelcome {
+    padding: 40px 10px;
+  }
+  .HomepageWelcome2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .locationImg {
+    img {
+      width: 250px;
+    }
+  }
+}

@@ -1,0 +1,328 @@
+// Shared CSS
+@use '../../../Shared/Shared';
+
+.History {
+  // @include Shared.pageLayoutSetup; //!cant use because of carousel black background style
+  @include Shared.center;
+  position: relative;
+  padding-top: 50px;
+  h1 {
+    @include Shared.headerTitle;
+    margin-bottom: 30px;
+  }
+  margin-bottom: 100px;
+}
+
+//carousel black background
+.blackBG {
+  position: absolute;
+  top: 360px;
+  // height: 20%;
+  height: 35vh;
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  // border: 1px solid palevioletred;
+  z-index: -10;
+}
+
+.carouselContainer {
+  padding: 100px 300px;
+}
+
+.carouseulImgContainer {
+  text-align: right;
+  // padding-right: 40px;
+  margin-bottom: 20px; //for boxshadow full blur effect to show on bottom
+  // border: 1px solid blue;
+  height: 350px;
+}
+
+//image box shadow on bottom
+.carouselImg {
+  width: 350px;
+  height: 350px;
+  box-shadow: 0px 2px 10px 5px rgb(0 0 0 / 50%);
+}
+
+.carouselImg:hover {
+  cursor: pointer;
+}
+
+.carouselImgDes {
+  text-align: left;
+  // border: 1px solid orange;
+  // padding-left: 25px;
+  // padding-right: 150px;
+  height: 350px;
+  width: 400px;
+}
+
+.carouselImgDes p {
+  font-size: 1.1rem;
+}
+
+.carousel {
+  //!DELETE LATER
+  // z-index: 10;
+  // margin: 0 auto;
+  // padding-bottom: 100px;
+  // border: 1px solid pink;
+  // margin: 40px 0;
+  // padding-bottom: 40px;
+}
+
+.carouselSlide {
+  //!DELETE LATER
+  // padding-left: -180px;
+  // padding-right: 30px; //use to position carousel slide in middle
+}
+
+//Overriding some Carousel properties
+//size of controls
+.carousel-control-next,
+.carousel-control-prev {
+  //!DELETE LATER
+  // width: 10rem;
+  // height: 300px;
+  // background-size: 150% 150%;
+  // color: white;
+  // background-color: brown;
+}
+
+//position of controls
+.carousel-control-next,
+.carousel-control-prev {
+  top: -40%;
+}
+
+// .boxShadow {
+//   width: 340px;
+//   margin-top: 3px;
+//   // height: 10px;
+//   background-color: transparent;
+//   margin-left: 210px;
+//   box-shadow: 0px 2px 20px 3px rgb(0 0 0 / 50%);
+//   border-radius: 100px;
+// }
+
+.historyBlock {
+  display: flex;
+  justify-content: center;
+}
+.historyGrid {
+  background-color: Shared.$darkgrey-color;
+  width: 250px;
+  height: 220px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.historyGrid:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1600px) {
+  .historyContent {
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+
+  .carousel-item {
+    width: 102%;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+  .historyContent {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+
+  .carouselContainer {
+    padding: 150px 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .historyContent {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+
+  .carouselContainer {
+    padding: 100px 100px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .historyContent {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  //carousel black background
+  .blackBG {
+    top: 420px;
+  }
+
+  .carouselContainer {
+    padding: 100px 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .historyContent {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  //carousel black background
+  .blackBG {
+    top: 550px;
+    height: 65vh;
+  }
+
+  .carouselContainer {
+    padding: 100px 0px;
+  }
+
+  .carouseulImgContainer {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .carouselImgDes {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .carouselImgDes p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .historyContent {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  //carousel black background
+  .blackBG {
+    top: 570px;
+    height: 60vh;
+  }
+
+  .carouselContainer {
+    padding: 100px 0px;
+  }
+
+  .carouseulImgContainer {
+    text-align: center;
+    margin-top: 20px;
+    height: 300px;
+  }
+
+  //image box shadow on bottom
+  .carouselImg {
+    width: 300px;
+    height: 300px;
+  }
+
+  .carouselImgDes {
+    text-align: center;
+    width: 550px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 576px) {
+  .History h1 {
+    font-size: 2.4rem;
+  }
+
+  .historyContent {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  //carousel black background
+  .blackBG {
+    top: 530px;
+    height: 60vh;
+  }
+
+  .carouselContainer {
+    padding: 70px 0px;
+  }
+
+  .carouseulImgContainer {
+    text-align: center;
+    margin-top: 20px;
+    height: 250px;
+  }
+
+  //image box shadow on bottom
+  .carouselImg {
+    width: 250px;
+    height: 250px;
+  }
+
+  .carouselImgDes {
+    text-align: center;
+    width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .History h1 {
+    font-size: 2.4rem;
+  }
+
+  .historyContent {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  //carousel black background
+  .blackBG {
+    top: 580px;
+    height: 90vh;
+  }
+
+  .carouselContainer {
+    padding: 150px 0px;
+  }
+
+  .carouseulImgContainer {
+    text-align: center;
+    // margin-top: 20px;
+    height: 230px;
+  }
+
+  //image box shadow on bottom
+  .carouselImg {
+    width: 230px;
+    height: 230px;
+  }
+
+  .carouselImgDes {
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .historyContent {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+}

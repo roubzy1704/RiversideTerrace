@@ -1,0 +1,20 @@
+// Shared CSS
+@use '../../../../Shared/Shared';
+
+.PayDues {
+  @include Shared.pageLayoutSetup;
+  // margin-bottom: 100px;
+  h1 {
+    @include Shared.headerTitle;
+    margin-bottom: 30px;
+  }
+  p {
+    @include Shared.textParagraph;
+    font-size: 1.2rem;
+  }
+  h4 {
+    @include Shared.textParagraph;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+}
