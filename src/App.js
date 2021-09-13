@@ -36,6 +36,10 @@ function App() {
               <Route path="/" exact>
                 <Homepage />
               </Route>
+              {/* //TODO Resolve URL */}
+              <Route path="/RiversideTerrace" exact>
+                <Homepage />
+              </Route>
               <Route path="/Pay_Dues" exact>
                 <PayDues />
               </Route>

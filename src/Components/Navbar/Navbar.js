@@ -2,8 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import $ from "jquery";
 
-import RTL from "../../Images/RiverTerraceLogo.png";
-import RTSoloLogo from "../../Images/RTSoloLogo.png";
+import RTL from "./../../Images/RiverTerraceLogo.png";
+import RTSoloLogo from "./../../Images/RTSoloLogo.png";
 import "./Navbar.scss";
 
 const NavBar = () => {
@@ -152,17 +152,6 @@ const NavBar = () => {
                 <li className="nav-item">
                   <NavLink to="/Contacts" className="nav-link" exact>
                     CONTACTS
-                  </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink to="/SignIn" className="nav-link" exact>
-                    <span
-                      className="iconify signInIcon"
-                      data-icon="bi:person"
-                      style={{ Color: "white" }}
-                      data-width="30"
-                      data-height="30"></span>{" "}
-                    SIGN IN
                   </NavLink>
                 </li>
               </ul>
