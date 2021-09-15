@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import $ from "jquery";
 
-import RTL from "./../../Images/RiverTerraceLogo.png";
 import RTSoloLogo from "./../../Images/RTSoloLogo.png";
 import "./Navbar.scss";
 
@@ -71,12 +70,18 @@ const NavBar = () => {
             <div className="offcanvas-body">
               <ul className="navbar-nav nav-fill w-100 nav-pills">
                 <li className="nav-item">
-                  <NavLink to="/Home" className="nav-link" exact>
+                  <NavLink
+                    to="/RiversideTerrace/Home"
+                    className="nav-link"
+                    exact>
                     HOME
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/About" className="nav-link" exact>
+                  <NavLink
+                    to="/RiversideTerrace/About"
+                    className="nav-link"
+                    exact>
                     ABOUT
                   </NavLink>
                 </li>
@@ -94,35 +99,50 @@ const NavBar = () => {
                     aria-labelledby="navbarDropdown">
                     <li>
                       {/* <button className="dropdown-item"> */}
-                      <NavLink to="/Civic_Club" className="dropdown-item" exact>
+                      <NavLink
+                        to="/RiversideTerrace/Civic_Club"
+                        className="dropdown-item"
+                        exact>
                         CIVIC CLUB
                       </NavLink>
                       {/* </button> */}
                     </li>
                     <li>
                       {/* <button className="dropdown-item"> */}
-                      <NavLink to="/Civic_Club" className="dropdown-item" exact>
+                      <NavLink
+                        to="/RiversideTerrace/Civic_Club"
+                        className="dropdown-item"
+                        exact>
                         Historic Homes
                       </NavLink>
                       {/* </button> */}
                     </li>
                     <li>
                       {/* <button className="dropdown-item"> */}
-                      <NavLink to="/Civic_Club" className="dropdown-item" exact>
+                      <NavLink
+                        to="/RiversideTerrace/Civic_Club"
+                        className="dropdown-item"
+                        exact>
                         Notable People
                       </NavLink>
                       {/* </button> */}
                     </li>
                     <li>
                       {/* <button className="dropdown-item"> */}
-                      <NavLink to="/Civic_Club" className="dropdown-item" exact>
+                      <NavLink
+                        to="/RiversideTerrace/Civic_Club"
+                        className="dropdown-item"
+                        exact>
                         City Council
                       </NavLink>
                       {/* </button> */}
                     </li>
                     <li>
                       {/* <button className="dropdown-item"> */}
-                      <NavLink to="/Civic_Club" className="dropdown-item" exact>
+                      <NavLink
+                        to="/RiversideTerrace/Civic_Club"
+                        className="dropdown-item"
+                        exact>
                         Holiday Lights
                       </NavLink>
                       {/* </button> */}
@@ -132,7 +152,10 @@ const NavBar = () => {
                     </li>
                     <li>
                       {/* <button className="dropdown-item dropdown-item"> */}
-                      <NavLink to="/Civic_Club" className="dropdown-item" exact>
+                      <NavLink
+                        to="/RiversideTerrace/Civic_Club"
+                        className="dropdown-item"
+                        exact>
                         Coming Soon
                       </NavLink>
                       {/* </button> */}
@@ -140,17 +163,26 @@ const NavBar = () => {
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/News_Events" className="nav-link" exact>
+                  <NavLink
+                    to="/RiversideTerrace/News_Events"
+                    className="nav-link"
+                    exact>
                     NEWS & EVENTS
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/History" className="nav-link" exact>
+                  <NavLink
+                    to="/RiversideTerrace/History"
+                    className="nav-link"
+                    exact>
                     HISTORY
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/Contacts" className="nav-link" exact>
+                  <NavLink
+                    to="/RiversideTerrace/Contacts"
+                    className="nav-link"
+                    exact>
                     CONTACTS
                   </NavLink>
                 </li>

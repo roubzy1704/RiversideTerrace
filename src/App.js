@@ -23,7 +23,7 @@ function App() {
       <div className="center logo">
         {" "}
         {/* //TODO change link url */}
-        <a href="/Home" target="_self">
+        <a href="/RiversideTerrace/Home" target="_self">
           <img src={RTLogo} alt="Riverside Terrace" />
         </a>
       </div>
@@ -34,34 +34,30 @@ function App() {
           <NavBar />
           <div id="content-wrap">
             <Switch>
-              <Route path="/Home" exact>
+              <Route path="/RiversideTerrace/Home" exact>
                 <Homepage />
               </Route>
-              {/* //TODO Resolve URL */}
-              <Route path="/RiversideTerrace" exact>
-                <Homepage />
-              </Route>
-              <Route path="/Pay_Dues" exact>
+              <Route path="/RiversideTerrace/Pay_Dues" exact>
                 <PayDues />
               </Route>
-              <Route path="/About" exact>
+              <Route path="/RiversideTerrace/About" exact>
                 <About />
               </Route>
-              <Route path="/Civic_Club" exact>
+              <Route path="/RiversideTerrace/Civic_Club" exact>
                 <CivicClub />
               </Route>
-              <Route path="/News_Events" exact>
+              <Route path="/RiversideTerrace/News_Events" exact>
                 <NewsEvents />
               </Route>
-              <Route path="/History" exact>
+              <Route path="/RiversideTerrace/History" exact>
                 <History />
               </Route>
-              <Route path="/Contacts" exact>
+              <Route path="/RiversideTerrace/Contacts" exact>
                 <Contacts />
               </Route>
-              <Route path="/SignIn" exact>
+              {/* <Route path="/SignIn" exact>
                 <SignIn />
-              </Route>
+              </Route> */}
               <Route path="*" exact={true} component={NotFound} />
             </Switch>
           </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import { FullScreen, useFullScreenHandle } from "react-full-screen";
 
 import historyImg1 from "../../../Images/history/historyImg1.webp";
 import historyImg2 from "../../../Images/history/historyImg2.webp";
