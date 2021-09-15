@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/RiversideTerrace/static/css/main.7196454f.chunk.css",
-    "main.js": "/RiversideTerrace/static/js/main.d81ac97c.chunk.js",
-    "main.js.map": "/RiversideTerrace/static/js/main.d81ac97c.chunk.js.map",
-    "runtime-main.js": "/RiversideTerrace/static/js/runtime-main.7e161799.js",
-    "runtime-main.js.map": "/RiversideTerrace/static/js/runtime-main.7e161799.js.map",
-    "static/js/2.9d60784d.chunk.js": "/RiversideTerrace/static/js/2.9d60784d.chunk.js",
-    "static/js/2.9d60784d.chunk.js.map": "/RiversideTerrace/static/js/2.9d60784d.chunk.js.map",
-    "static/js/3.bbed7584.chunk.js": "/RiversideTerrace/static/js/3.bbed7584.chunk.js",
-    "static/js/3.bbed7584.chunk.js.map": "/RiversideTerrace/static/js/3.bbed7584.chunk.js.map",
+    "main.js": "/RiversideTerrace/static/js/main.abf83681.chunk.js",
+    "main.js.map": "/RiversideTerrace/static/js/main.abf83681.chunk.js.map",
+    "runtime-main.js": "/RiversideTerrace/static/js/runtime-main.cace219b.js",
+    "runtime-main.js.map": "/RiversideTerrace/static/js/runtime-main.cace219b.js.map",
+    "static/js/2.3ebcabe7.chunk.js": "/RiversideTerrace/static/js/2.3ebcabe7.chunk.js",
+    "static/js/2.3ebcabe7.chunk.js.map": "/RiversideTerrace/static/js/2.3ebcabe7.chunk.js.map",
+    "static/js/3.916df3eb.chunk.js": "/RiversideTerrace/static/js/3.916df3eb.chunk.js",
+    "static/js/3.916df3eb.chunk.js.map": "/RiversideTerrace/static/js/3.916df3eb.chunk.js.map",
     "index.html": "/RiversideTerrace/index.html",
     "static/css/main.7196454f.chunk.css.map": "/RiversideTerrace/static/css/main.7196454f.chunk.css.map",
-    "static/js/2.9d60784d.chunk.js.LICENSE.txt": "/RiversideTerrace/static/js/2.9d60784d.chunk.js.LICENSE.txt",
+    "static/js/2.3ebcabe7.chunk.js.LICENSE.txt": "/RiversideTerrace/static/js/2.3ebcabe7.chunk.js.LICENSE.txt",
     "static/media/RTLogo.960dcd0f.png": "/RiversideTerrace/static/media/RTLogo.960dcd0f.png",
     "static/media/RTSoloLogo.057e1ff4.png": "/RiversideTerrace/static/media/RTSoloLogo.057e1ff4.png",
-    "static/media/RiverTerraceLogo.0206d960.png": "/RiversideTerrace/static/media/RiverTerraceLogo.0206d960.png",
     "static/media/UH.943cf5cc.jpg": "/RiversideTerrace/static/media/UH.943cf5cc.jpg",
     "static/media/historyImg1.30d778dc.webp": "/RiversideTerrace/static/media/historyImg1.30d778dc.webp",
     "static/media/historyImg2.3d567621.webp": "/RiversideTerrace/static/media/historyImg2.3d567621.webp",
@@ -30,9 +29,9 @@
     "static/media/nrg-stadium.6e095811.jpg": "/RiversideTerrace/static/media/nrg-stadium.6e095811.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7e161799.js",
-    "static/js/2.9d60784d.chunk.js",
+    "static/js/runtime-main.cace219b.js",
+    "static/js/2.3ebcabe7.chunk.js",
     "static/css/main.7196454f.chunk.css",
-    "static/js/main.d81ac97c.chunk.js"
+    "static/js/main.abf83681.chunk.js"
   ]
 }
