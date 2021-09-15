@@ -56,7 +56,7 @@ const NotFound = () => {
           />
         )}
         <p>We are sorry, but the page you are looking for does not exist!</p>
-        <a href="/Home" className="button-56">
+        <a href="/" className="button-56">
           Go Home
         </a>
       </div>

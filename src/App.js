@@ -28,12 +28,12 @@ function App() {
 
       <div className="">
         {/* <Provider store={store}> */}
-        <Router basename="/RiversideTerrace">
+        <Router basename="/">
           <NavBar />
           <div id="content-wrap">
             <Switch>
-              <Route path="/Home" component={Homepage} exact />
-              <Route path="/RiversideTerrace" component={Homepage} />
+              <Route path="/" component={Homepage} exact />
+              {/* <Route path="/RiversideTerrace" component={Homepage} /> */}
               <Route path="/About" component={About} exact />
               <Route path="/Civic_Club" component={CivicClub} exact />
               <Route path="/News_Events" component={NewsEvents} exact />

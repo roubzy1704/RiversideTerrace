@@ -70,7 +70,7 @@ const NavBar = () => {
             <div className="offcanvas-body">
               <ul className="navbar-nav nav-fill w-100 nav-pills">
                 <li className="nav-item">
-                  <NavLink to="/Home" className="nav-link" exact>
+                  <NavLink to="/" className="nav-link" exact>
                     HOME
                   </NavLink>
                 </li>
