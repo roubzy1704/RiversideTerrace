@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/RiversideTerrace/static/css/main.7196454f.chunk.css",
-    "main.js": "/RiversideTerrace/static/js/main.f6ecd301.chunk.js",
-    "main.js.map": "/RiversideTerrace/static/js/main.f6ecd301.chunk.js.map",
-    "runtime-main.js": "/RiversideTerrace/static/js/runtime-main.cace219b.js",
-    "runtime-main.js.map": "/RiversideTerrace/static/js/runtime-main.cace219b.js.map",
+    "main.css": "/RiversideTerrace/static/css/main.b1dd4d20.chunk.css",
+    "main.js": "/RiversideTerrace/static/js/main.83f78ed0.chunk.js",
+    "main.js.map": "/RiversideTerrace/static/js/main.83f78ed0.chunk.js.map",
+    "runtime-main.js": "/RiversideTerrace/static/js/runtime-main.90cc422f.js",
+    "runtime-main.js.map": "/RiversideTerrace/static/js/runtime-main.90cc422f.js.map",
     "static/js/2.3ebcabe7.chunk.js": "/RiversideTerrace/static/js/2.3ebcabe7.chunk.js",
     "static/js/2.3ebcabe7.chunk.js.map": "/RiversideTerrace/static/js/2.3ebcabe7.chunk.js.map",
-    "static/js/3.916df3eb.chunk.js": "/RiversideTerrace/static/js/3.916df3eb.chunk.js",
-    "static/js/3.916df3eb.chunk.js.map": "/RiversideTerrace/static/js/3.916df3eb.chunk.js.map",
+    "static/js/3.8d7c29ed.chunk.js": "/RiversideTerrace/static/js/3.8d7c29ed.chunk.js",
+    "static/js/3.8d7c29ed.chunk.js.map": "/RiversideTerrace/static/js/3.8d7c29ed.chunk.js.map",
     "index.html": "/RiversideTerrace/index.html",
-    "static/css/main.7196454f.chunk.css.map": "/RiversideTerrace/static/css/main.7196454f.chunk.css.map",
+    "static/css/main.b1dd4d20.chunk.css.map": "/RiversideTerrace/static/css/main.b1dd4d20.chunk.css.map",
     "static/js/2.3ebcabe7.chunk.js.LICENSE.txt": "/RiversideTerrace/static/js/2.3ebcabe7.chunk.js.LICENSE.txt",
+    "static/media/Data_extraction.6d412764.svg": "/RiversideTerrace/static/media/Data_extraction.6d412764.svg",
+    "static/media/Faq.7acf8a54.svg": "/RiversideTerrace/static/media/Faq.7acf8a54.svg",
+    "static/media/No_data.54ebb494.svg": "/RiversideTerrace/static/media/No_data.54ebb494.svg",
     "static/media/RTLogo.960dcd0f.png": "/RiversideTerrace/static/media/RTLogo.960dcd0f.png",
     "static/media/RTSoloLogo.057e1ff4.png": "/RiversideTerrace/static/media/RTSoloLogo.057e1ff4.png",
     "static/media/UH.943cf5cc.jpg": "/RiversideTerrace/static/media/UH.943cf5cc.jpg",
@@ -26,12 +29,14 @@
     "static/media/historyImg9.2bd90eeb.jpg": "/RiversideTerrace/static/media/historyImg9.2bd90eeb.jpg",
     "static/media/Homepage.scss": "/RiversideTerrace/static/media/house-02.a2b84a79.jpg",
     "static/media/medicalCenter.f2404a3a.jpg": "/RiversideTerrace/static/media/medicalCenter.f2404a3a.jpg",
-    "static/media/nrg-stadium.6e095811.jpg": "/RiversideTerrace/static/media/nrg-stadium.6e095811.jpg"
+    "static/media/nrg-stadium.6e095811.jpg": "/RiversideTerrace/static/media/nrg-stadium.6e095811.jpg",
+    "static/media/online_test.23e6ccb4.svg": "/RiversideTerrace/static/media/online_test.23e6ccb4.svg",
+    "static/media/page_not_found.578b317f.svg": "/RiversideTerrace/static/media/page_not_found.578b317f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cace219b.js",
+    "static/js/runtime-main.90cc422f.js",
     "static/js/2.3ebcabe7.chunk.js",
-    "static/css/main.7196454f.chunk.css",
-    "static/js/main.f6ecd301.chunk.js"
+    "static/css/main.b1dd4d20.chunk.css",
+    "static/js/main.83f78ed0.chunk.js"
   ]
 }
