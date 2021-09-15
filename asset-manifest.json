@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/RiversideTerrace/static/css/main.7196454f.chunk.css",
-    "main.js": "/RiversideTerrace/static/js/main.d986c449.chunk.js",
-    "main.js.map": "/RiversideTerrace/static/js/main.d986c449.chunk.js.map",
+    "main.js": "/RiversideTerrace/static/js/main.d81ac97c.chunk.js",
+    "main.js.map": "/RiversideTerrace/static/js/main.d81ac97c.chunk.js.map",
     "runtime-main.js": "/RiversideTerrace/static/js/runtime-main.7e161799.js",
     "runtime-main.js.map": "/RiversideTerrace/static/js/runtime-main.7e161799.js.map",
     "static/js/2.9d60784d.chunk.js": "/RiversideTerrace/static/js/2.9d60784d.chunk.js",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.7e161799.js",
     "static/js/2.9d60784d.chunk.js",
     "static/css/main.7196454f.chunk.css",
-    "static/js/main.d986c449.chunk.js"
+    "static/js/main.d81ac97c.chunk.js"
   ]
 }
