@@ -21,7 +21,7 @@ function App() {
       <div className="center logo">
         {" "}
         {/* //TODO change link url */}
-        <a href="/RiversideTerrace/Home" target="_self">
+        <a href="/" target="_self">
           <img src={RTLogo} alt="Riverside Terrace" />
         </a>
       </div>
