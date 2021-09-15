@@ -32,7 +32,7 @@ const NavBar = () => {
     <React.Fragment>
       <nav className="navbar navbar-expand-md navbar-light sticky-top">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/Home">
             <img
               src={RTSoloLogo}
               alt="River Terrace"
@@ -71,7 +71,7 @@ const NavBar = () => {
             <div className="offcanvas-body">
               <ul className="navbar-nav nav-fill w-100 nav-pills">
                 <li className="nav-item">
-                  <NavLink to="/" className="nav-link" exact>
+                  <NavLink to="/Home" className="nav-link" exact>
                     HOME
                   </NavLink>
                 </li>

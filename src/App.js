@@ -22,7 +22,8 @@ function App() {
     <div id="page-container">
       <div className="center logo">
         {" "}
-        <a href="/RiversideTerrace" target="_self">
+        {/* //TODO change link url */}
+        <a href="/Home" target="_self">
           <img src={RTLogo} alt="Riverside Terrace" />
         </a>
       </div>
@@ -33,7 +34,7 @@ function App() {
           <NavBar />
           <div id="content-wrap">
             <Switch>
-              <Route path="/" exact>
+              <Route path="/Home" exact>
                 <Homepage />
               </Route>
               {/* //TODO Resolve URL */}
